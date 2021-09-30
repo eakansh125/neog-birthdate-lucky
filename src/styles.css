@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+:root {
+  --primary-color: #fca5a5;
+}
+
+body {
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 0.4rem 2.8rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #e5e7eb;
+}
+
+.rounded-borders {
+  border-radius: 1rem;
+}
+
+#output {
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+  height: 2rem;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#dateofbirth {
+  padding: 0.2rem 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+#lucky {
+  padding: 0.4rem 0.2rem;
+  border: none;
+  border-radius: 10px;
+}
